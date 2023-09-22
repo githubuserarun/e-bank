@@ -1,0 +1,63 @@
+body {
+  background-color: #152850;
+  font-family: Roboto;
+}
+
+input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #c3cad9;
+}
+button {
+  margin-top: 20px;
+  padding: 12px;
+  font-size: 15px;
+  color: white;
+  background-color: #1565d8;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.loginRouteContainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.loginContainer {
+  background-color: #e0eefe;
+  display: flex;
+  justify-content: space-between;
+  width: 70vw;
+  height: 90vh;
+  border-radius: 20px;
+}
+.loginLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 60%;
+}
+.loginRight {
+  background-color: #ffffff;
+  width: 40%;
+  border-radius: 20px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.userInput {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.errmsg {
+  color: red;
+  text-align: center;
+}
